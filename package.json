@@ -1,19 +1,27 @@
 {
-  "name": "axiewatch",
+  "name": "air66Theme",
   "version": "1.0.0",
-  "private": true,
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "server": "yarn workspace @axiewatch/server",
-    "web": "yarn workspace @axiewatch/web"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "workspaces": {
-    "packages": [
-      "packages/*"
-    ]
-  },
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@axiewatch/eslint-config": "*",
-    "typescript": "^4.4.4"
+    "autoprefixer": "^9.6.1",
+    "concat": "^1.0.3",
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
   }
 }
